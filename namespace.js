@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", init);
 
 var RIGN0002 = {
     init: function () {
-        var newDiv = document.createElement("div");
+        let newDiv = document.createElement("div");
         newDiv.className = "box";
         newDiv.textContent = "RIGN0002";
-        var boxes = document.getElementById("boxes");
+        let boxes = document.getElementById("boxes");
         boxes.appendChild(newDiv);
         
         newDiv.addEventListener("click", function () {
