@@ -7,8 +7,8 @@ var RIGN0002 = {
         boxes.appendChild(newDiv);
         
         newDiv.addEventListener("click", function () {
-            newDiv.style.borderColor = "darkblue";
-            newDiv.style.backgroundColor = "aqua";
+            newDiv.style.borderColor = "#7aff51";
+            newDiv.style.backgroundColor = "#a87323";
         });
 
         newDiv.addEventListener("mouseover", function () {
