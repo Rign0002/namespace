@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", init);
-
 var RIGN0002 = {
     init: function () {
         let newDiv = document.createElement("div");
