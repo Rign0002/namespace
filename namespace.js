@@ -9,6 +9,7 @@ var RIGN0002 = {
         newDiv.addEventListener("click", function () {
             newDiv.style.borderColor = "#7aff51";
             newDiv.style.backgroundColor = "#a87323";
+            newDiv.style.color = "white";
         });
 
         newDiv.addEventListener("mouseover", function () {
